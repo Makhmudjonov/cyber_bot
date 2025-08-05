@@ -151,7 +151,6 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE):
     return ConversationHandler.END
 
 def run_bot():
-    import nest_asyncio
     nest_asyncio.apply()
 
     async def main():
