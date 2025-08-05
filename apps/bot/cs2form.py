@@ -174,7 +174,7 @@ def run_bot():
         app.add_handler(conv_handler)
 
         print("🏁 Bot ishga tushdi...")
-        await app.run_polling()
+        await app.run_polling(stop_signals=None)
 
     asyncio.run(main())
 
