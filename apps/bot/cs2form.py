@@ -154,7 +154,7 @@ def run_bot():
     nest_asyncio.apply()
 
     async def main():
-        app = ApplicationBuilder().token("8208998249:AAHIs5BpekWU7yLNbGoI7yBT23o9ByRmZ64").build()
+        app = ApplicationBuilder().token("8208998249:AAHS4tBYMjudf8JpDzzqoXuTlug965UM2Fs").build()
 
         conv_handler = ConversationHandler(
             entry_points=[CommandHandler("start", start)],
